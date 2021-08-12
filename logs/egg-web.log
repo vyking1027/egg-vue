@@ -1,0 +1,575 @@
+2021-08-10 23:43:14,953 INFO 59659 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-10 23:43:14,977 INFO 59659 [egg-multipart] stream mode enable
+2021-08-10 23:43:15,113 INFO 59659 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/public
+2021-08-10 23:43:15,115 INFO 59659 [egg-security] use csrf middleware
+2021-08-10 23:43:15,115 INFO 59659 [egg-security] use methodnoallow middleware
+2021-08-10 23:43:15,116 INFO 59659 [egg-security] use noopen middleware
+2021-08-10 23:43:15,116 INFO 59659 [egg-security] use nosniff middleware
+2021-08-10 23:43:15,116 INFO 59659 [egg-security] use xssProtection middleware
+2021-08-10 23:43:15,117 INFO 59659 [egg-security] use xframe middleware
+2021-08-10 23:43:15,117 INFO 59659 [egg-security] use dta middleware
+2021-08-10 23:43:15,117 INFO 59659 [egg-security] compose 7 middlewares into one security middleware
+2021-08-10 23:43:15,162 INFO 59659 [egg:core] dump config after load, 4ms
+2021-08-10 23:43:15,173 INFO 59659 [egg-watcher:application] watcher start success
+2021-08-10 23:43:15,181 INFO 59659 [egg:core] dump config after ready, 6ms
+2021-08-11 00:00:00,013 INFO 59659 [egg-logrotator] clean all log before 31 days
+2021-08-11 00:00:01,020 INFO 59659 [egg-logrotator] broadcast log-reload
+2021-08-11 00:00:01,021 INFO 59659 [egg-logrotator] rotate files success by DayRotator, files ["/Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/common-error.log -> /Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/common-error.log.2021-08-10","/Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/EggVuePro-web.log -> /Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/EggVuePro-web.log.2021-08-10","/Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/egg-web.log -> /Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/egg-web.log.2021-08-10","/Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/egg-schedule.log -> /Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/egg-schedule.log.2021-08-10","/Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/egg-agent.log -> /Users/macbook/Desktop/vyking/projects/egg-vue-ssr/EggVuePro/logs/egg-agent.log.2021-08-10"]
+2021-08-11 22:14:25,465 INFO 15042 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:14:25,488 INFO 15042 [egg-multipart] stream mode enable
+2021-08-11 22:14:25,981 INFO 15042 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:14:26,170 INFO 15042 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:14:26,172 INFO 15042 [egg-security] use csrf middleware
+2021-08-11 22:14:26,173 INFO 15042 [egg-security] use methodnoallow middleware
+2021-08-11 22:14:26,174 INFO 15042 [egg-security] use noopen middleware
+2021-08-11 22:14:26,175 INFO 15042 [egg-security] use nosniff middleware
+2021-08-11 22:14:26,176 INFO 15042 [egg-security] use xssProtection middleware
+2021-08-11 22:14:26,177 INFO 15042 [egg-security] use xframe middleware
+2021-08-11 22:14:26,178 INFO 15042 [egg-security] use dta middleware
+2021-08-11 22:14:26,178 INFO 15042 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:14:26,221 INFO 15042 [egg:core] dump config after load, 4ms
+2021-08-11 22:14:26,224 INFO 15042 [egg-mongoose] starting...
+2021-08-11 22:14:26,257 INFO 15042 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:14:26,258 INFO 15042 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:14:26,260 INFO 15042 [egg-watcher:application] watcher start success
+2021-08-11 22:14:26,268 INFO 15042 [egg:core] dump config after ready, 6ms
+2021-08-11 22:14:53,582 INFO 15272 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:14:53,604 INFO 15272 [egg-multipart] stream mode enable
+2021-08-11 22:14:53,816 INFO 15272 [egg-mongoose] connecting mongodb://127.0.0.1:27017/prodb
+2021-08-11 22:14:53,880 INFO 15272 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:14:53,882 INFO 15272 [egg-security] use csrf middleware
+2021-08-11 22:14:53,882 INFO 15272 [egg-security] use methodnoallow middleware
+2021-08-11 22:14:53,882 INFO 15272 [egg-security] use noopen middleware
+2021-08-11 22:14:53,883 INFO 15272 [egg-security] use nosniff middleware
+2021-08-11 22:14:53,883 INFO 15272 [egg-security] use xssProtection middleware
+2021-08-11 22:14:53,883 INFO 15272 [egg-security] use xframe middleware
+2021-08-11 22:14:53,884 INFO 15272 [egg-security] use dta middleware
+2021-08-11 22:14:53,884 INFO 15272 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:14:53,891 INFO 15272 [egg:core] dump config after load, 4ms
+2021-08-11 22:14:53,894 INFO 15272 [egg-mongoose] starting...
+2021-08-11 22:14:53,911 INFO 15272 [egg-mongoose] mongodb://127.0.0.1:27017/prodb connected successfully
+2021-08-11 22:14:53,912 INFO 15272 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:14:53,914 INFO 15272 [egg-watcher:application] watcher start success
+2021-08-11 22:14:53,921 INFO 15272 [egg:core] dump config after ready, 4ms
+2021-08-11 22:22:56,528 INFO 19085 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:22:56,564 INFO 19085 [egg-multipart] stream mode enable
+2021-08-11 22:22:56,765 INFO 19085 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:22:56,834 INFO 19085 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:22:56,835 INFO 19085 [egg-security] use csrf middleware
+2021-08-11 22:22:56,836 INFO 19085 [egg-security] use methodnoallow middleware
+2021-08-11 22:22:56,836 INFO 19085 [egg-security] use noopen middleware
+2021-08-11 22:22:56,837 INFO 19085 [egg-security] use nosniff middleware
+2021-08-11 22:22:56,837 INFO 19085 [egg-security] use xssProtection middleware
+2021-08-11 22:22:56,837 INFO 19085 [egg-security] use xframe middleware
+2021-08-11 22:22:56,838 INFO 19085 [egg-security] use dta middleware
+2021-08-11 22:22:56,838 INFO 19085 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:22:56,846 INFO 19085 [egg:core] dump config after load, 4ms
+2021-08-11 22:22:56,848 INFO 19085 [egg-mongoose] starting...
+2021-08-11 22:22:56,865 INFO 19085 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:22:56,866 INFO 19085 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:22:56,868 INFO 19085 [egg-watcher:application] watcher start success
+2021-08-11 22:22:56,874 INFO 19085 [egg:core] dump config after ready, 5ms
+2021-08-11 22:27:37,332 INFO 21331 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:27:37,353 INFO 21331 [egg-multipart] stream mode enable
+2021-08-11 22:27:37,571 INFO 21331 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:27:37,710 INFO 21331 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:27:37,712 INFO 21331 [egg-security] use csrf middleware
+2021-08-11 22:27:37,712 INFO 21331 [egg-security] use methodnoallow middleware
+2021-08-11 22:27:37,713 INFO 21331 [egg-security] use noopen middleware
+2021-08-11 22:27:37,713 INFO 21331 [egg-security] use nosniff middleware
+2021-08-11 22:27:37,713 INFO 21331 [egg-security] use xssProtection middleware
+2021-08-11 22:27:37,713 INFO 21331 [egg-security] use xframe middleware
+2021-08-11 22:27:37,714 INFO 21331 [egg-security] use dta middleware
+2021-08-11 22:27:37,714 INFO 21331 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:27:37,757 INFO 21331 [egg:core] dump config after load, 5ms
+2021-08-11 22:27:37,759 INFO 21331 [egg-mongoose] starting...
+2021-08-11 22:27:37,769 INFO 21331 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:27:37,769 INFO 21331 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:27:37,771 INFO 21331 [egg-watcher:application] watcher start success
+2021-08-11 22:27:37,778 INFO 21331 [egg:core] dump config after ready, 5ms
+2021-08-11 22:27:54,468 INFO 21479 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:27:54,497 INFO 21479 [egg-multipart] stream mode enable
+2021-08-11 22:27:54,730 INFO 21479 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:27:54,884 INFO 21479 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:27:54,886 INFO 21479 [egg-security] use csrf middleware
+2021-08-11 22:27:54,887 INFO 21479 [egg-security] use methodnoallow middleware
+2021-08-11 22:27:54,887 INFO 21479 [egg-security] use noopen middleware
+2021-08-11 22:27:54,887 INFO 21479 [egg-security] use nosniff middleware
+2021-08-11 22:27:54,887 INFO 21479 [egg-security] use xssProtection middleware
+2021-08-11 22:27:54,888 INFO 21479 [egg-security] use xframe middleware
+2021-08-11 22:27:54,888 INFO 21479 [egg-security] use dta middleware
+2021-08-11 22:27:54,888 INFO 21479 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:27:54,941 INFO 21479 [egg:core] dump config after load, 5ms
+2021-08-11 22:27:54,944 INFO 21479 [egg-mongoose] starting...
+2021-08-11 22:27:54,955 INFO 21479 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:27:54,955 INFO 21479 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:27:54,957 INFO 21479 [egg-watcher:application] watcher start success
+2021-08-11 22:27:54,963 INFO 21479 [egg:core] dump config after ready, 5ms
+2021-08-11 22:29:25,931 INFO 22235 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:29:25,958 INFO 22235 [egg-multipart] stream mode enable
+2021-08-11 22:29:26,170 INFO 22235 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:29:26,244 INFO 22235 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:29:26,246 INFO 22235 [egg-security] use csrf middleware
+2021-08-11 22:29:26,247 INFO 22235 [egg-security] use methodnoallow middleware
+2021-08-11 22:29:26,247 INFO 22235 [egg-security] use noopen middleware
+2021-08-11 22:29:26,247 INFO 22235 [egg-security] use nosniff middleware
+2021-08-11 22:29:26,248 INFO 22235 [egg-security] use xssProtection middleware
+2021-08-11 22:29:26,248 INFO 22235 [egg-security] use xframe middleware
+2021-08-11 22:29:26,248 INFO 22235 [egg-security] use dta middleware
+2021-08-11 22:29:26,248 INFO 22235 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:29:28,106 INFO 22235 [egg:core] dump config after load, 5ms
+2021-08-11 22:29:28,109 INFO 22235 [egg-mongoose] starting...
+2021-08-11 22:29:28,121 INFO 22235 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:29:28,122 INFO 22235 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:29:28,124 INFO 22235 [egg-watcher:application] watcher start success
+2021-08-11 22:29:28,131 INFO 22235 [egg:core] dump config after ready, 5ms
+2021-08-11 22:30:17,029 INFO 22677 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:30:17,052 INFO 22677 [egg-multipart] stream mode enable
+2021-08-11 22:30:17,249 INFO 22677 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:30:17,315 INFO 22677 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:30:17,317 INFO 22677 [egg-security] use csrf middleware
+2021-08-11 22:30:17,317 INFO 22677 [egg-security] use methodnoallow middleware
+2021-08-11 22:30:17,317 INFO 22677 [egg-security] use noopen middleware
+2021-08-11 22:30:17,318 INFO 22677 [egg-security] use nosniff middleware
+2021-08-11 22:30:17,318 INFO 22677 [egg-security] use xssProtection middleware
+2021-08-11 22:30:17,318 INFO 22677 [egg-security] use xframe middleware
+2021-08-11 22:30:17,319 INFO 22677 [egg-security] use dta middleware
+2021-08-11 22:30:17,319 INFO 22677 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:30:19,005 INFO 22677 [egg:core] dump config after load, 6ms
+2021-08-11 22:30:19,008 INFO 22677 [egg-mongoose] starting...
+2021-08-11 22:30:19,019 INFO 22677 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:30:19,020 INFO 22677 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:30:19,021 INFO 22677 [egg-watcher:application] watcher start success
+2021-08-11 22:30:19,028 INFO 22677 [egg:core] dump config after ready, 5ms
+2021-08-11 22:30:29,334 INFO 22783 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:30:29,355 INFO 22783 [egg-multipart] stream mode enable
+2021-08-11 22:30:29,560 INFO 22783 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:30:29,628 INFO 22783 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:30:29,630 INFO 22783 [egg-security] use csrf middleware
+2021-08-11 22:30:29,630 INFO 22783 [egg-security] use methodnoallow middleware
+2021-08-11 22:30:29,631 INFO 22783 [egg-security] use noopen middleware
+2021-08-11 22:30:29,631 INFO 22783 [egg-security] use nosniff middleware
+2021-08-11 22:30:29,631 INFO 22783 [egg-security] use xssProtection middleware
+2021-08-11 22:30:29,632 INFO 22783 [egg-security] use xframe middleware
+2021-08-11 22:30:29,632 INFO 22783 [egg-security] use dta middleware
+2021-08-11 22:30:29,632 INFO 22783 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:30:31,293 INFO 22783 [egg:core] dump config after load, 5ms
+2021-08-11 22:30:31,296 INFO 22783 [egg-mongoose] starting...
+2021-08-11 22:30:31,307 INFO 22783 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:30:31,307 INFO 22783 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:30:31,309 INFO 22783 [egg-watcher:application] watcher start success
+2021-08-11 22:30:31,316 INFO 22783 [egg:core] dump config after ready, 5ms
+2021-08-11 22:40:13,643 INFO 27355 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:40:13,670 INFO 27355 [egg-multipart] stream mode enable
+2021-08-11 22:40:13,873 INFO 27355 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:40:13,939 INFO 27355 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:40:13,941 INFO 27355 [egg-security] use csrf middleware
+2021-08-11 22:40:13,942 INFO 27355 [egg-security] use methodnoallow middleware
+2021-08-11 22:40:13,942 INFO 27355 [egg-security] use noopen middleware
+2021-08-11 22:40:13,942 INFO 27355 [egg-security] use nosniff middleware
+2021-08-11 22:40:13,943 INFO 27355 [egg-security] use xssProtection middleware
+2021-08-11 22:40:13,943 INFO 27355 [egg-security] use xframe middleware
+2021-08-11 22:40:13,943 INFO 27355 [egg-security] use dta middleware
+2021-08-11 22:40:13,943 INFO 27355 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:40:15,533 INFO 27355 [egg:core] dump config after load, 5ms
+2021-08-11 22:40:15,535 INFO 27355 [egg-mongoose] starting...
+2021-08-11 22:40:15,547 INFO 27355 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:40:15,547 INFO 27355 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:40:15,549 INFO 27355 [egg-watcher:application] watcher start success
+2021-08-11 22:40:15,556 INFO 27355 [egg:core] dump config after ready, 6ms
+2021-08-11 22:40:19,856 INFO 27422 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:40:19,879 INFO 27422 [egg-multipart] stream mode enable
+2021-08-11 22:40:20,080 INFO 27422 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:40:20,141 INFO 27422 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:40:20,143 INFO 27422 [egg-security] use csrf middleware
+2021-08-11 22:40:20,143 INFO 27422 [egg-security] use methodnoallow middleware
+2021-08-11 22:40:20,143 INFO 27422 [egg-security] use noopen middleware
+2021-08-11 22:40:20,144 INFO 27422 [egg-security] use nosniff middleware
+2021-08-11 22:40:20,144 INFO 27422 [egg-security] use xssProtection middleware
+2021-08-11 22:40:20,144 INFO 27422 [egg-security] use xframe middleware
+2021-08-11 22:40:20,145 INFO 27422 [egg-security] use dta middleware
+2021-08-11 22:40:20,145 INFO 27422 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:40:21,777 INFO 27422 [egg:core] dump config after load, 7ms
+2021-08-11 22:40:21,782 INFO 27422 [egg-mongoose] starting...
+2021-08-11 22:40:21,797 INFO 27422 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:40:21,797 INFO 27422 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:40:21,799 INFO 27422 [egg-watcher:application] watcher start success
+2021-08-11 22:40:21,809 INFO 27422 [egg:core] dump config after ready, 7ms
+2021-08-11 22:41:11,619 INFO 27836 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:41:11,642 INFO 27836 [egg-multipart] stream mode enable
+2021-08-11 22:41:11,830 INFO 27836 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:41:11,896 INFO 27836 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:41:11,898 INFO 27836 [egg-security] use csrf middleware
+2021-08-11 22:41:11,898 INFO 27836 [egg-security] use methodnoallow middleware
+2021-08-11 22:41:11,898 INFO 27836 [egg-security] use noopen middleware
+2021-08-11 22:41:11,899 INFO 27836 [egg-security] use nosniff middleware
+2021-08-11 22:41:11,899 INFO 27836 [egg-security] use xssProtection middleware
+2021-08-11 22:41:11,899 INFO 27836 [egg-security] use xframe middleware
+2021-08-11 22:41:11,900 INFO 27836 [egg-security] use dta middleware
+2021-08-11 22:41:11,900 INFO 27836 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:41:13,485 INFO 27836 [egg:core] dump config after load, 4ms
+2021-08-11 22:41:13,488 INFO 27836 [egg-mongoose] starting...
+2021-08-11 22:41:13,500 INFO 27836 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:41:13,500 INFO 27836 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:41:13,501 INFO 27836 [egg-watcher:application] watcher start success
+2021-08-11 22:41:13,509 INFO 27836 [egg:core] dump config after ready, 6ms
+2021-08-11 22:44:40,318 INFO 29516 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:44:40,339 INFO 29516 [egg-multipart] stream mode enable
+2021-08-11 22:44:40,578 INFO 29516 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:44:40,639 INFO 29516 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:44:40,641 INFO 29516 [egg-security] use csrf middleware
+2021-08-11 22:44:40,641 INFO 29516 [egg-security] use methodnoallow middleware
+2021-08-11 22:44:40,642 INFO 29516 [egg-security] use noopen middleware
+2021-08-11 22:44:40,642 INFO 29516 [egg-security] use nosniff middleware
+2021-08-11 22:44:40,643 INFO 29516 [egg-security] use xssProtection middleware
+2021-08-11 22:44:40,643 INFO 29516 [egg-security] use xframe middleware
+2021-08-11 22:44:40,643 INFO 29516 [egg-security] use dta middleware
+2021-08-11 22:44:40,643 INFO 29516 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:44:42,243 INFO 29516 [egg:core] dump config after load, 5ms
+2021-08-11 22:44:42,246 INFO 29516 [egg-mongoose] starting...
+2021-08-11 22:44:42,257 INFO 29516 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:44:42,257 INFO 29516 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:44:42,259 INFO 29516 [egg-watcher:application] watcher start success
+2021-08-11 22:44:42,267 INFO 29516 [egg:core] dump config after ready, 6ms
+2021-08-11 22:48:20,019 INFO 31237 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:48:20,053 INFO 31237 [egg-multipart] stream mode enable
+2021-08-11 22:48:20,296 INFO 31237 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:48:20,432 INFO 31237 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:48:20,433 INFO 31237 [egg-security] use csrf middleware
+2021-08-11 22:48:20,434 INFO 31237 [egg-security] use methodnoallow middleware
+2021-08-11 22:48:20,434 INFO 31237 [egg-security] use noopen middleware
+2021-08-11 22:48:20,435 INFO 31237 [egg-security] use nosniff middleware
+2021-08-11 22:48:20,435 INFO 31237 [egg-security] use xssProtection middleware
+2021-08-11 22:48:20,435 INFO 31237 [egg-security] use xframe middleware
+2021-08-11 22:48:20,436 INFO 31237 [egg-security] use dta middleware
+2021-08-11 22:48:20,436 INFO 31237 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:48:20,490 INFO 31237 [egg:core] dump config after load, 5ms
+2021-08-11 22:48:20,494 INFO 31237 [egg-mongoose] starting...
+2021-08-11 22:48:20,508 INFO 31237 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:48:20,508 INFO 31237 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:48:20,510 INFO 31237 [egg-watcher:application] watcher start success
+2021-08-11 22:48:20,519 INFO 31237 [egg:core] dump config after ready, 6ms
+2021-08-11 22:48:33,171 INFO 31377 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:48:33,194 INFO 31377 [egg-multipart] stream mode enable
+2021-08-11 22:48:33,392 INFO 31377 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:48:33,464 INFO 31377 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:48:33,466 INFO 31377 [egg-security] use csrf middleware
+2021-08-11 22:48:33,467 INFO 31377 [egg-security] use methodnoallow middleware
+2021-08-11 22:48:33,467 INFO 31377 [egg-security] use noopen middleware
+2021-08-11 22:48:33,468 INFO 31377 [egg-security] use nosniff middleware
+2021-08-11 22:48:33,468 INFO 31377 [egg-security] use xssProtection middleware
+2021-08-11 22:48:33,468 INFO 31377 [egg-security] use xframe middleware
+2021-08-11 22:48:33,469 INFO 31377 [egg-security] use dta middleware
+2021-08-11 22:48:33,469 INFO 31377 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:48:33,479 INFO 31377 [egg:core] dump config after load, 5ms
+2021-08-11 22:48:33,482 INFO 31377 [egg-mongoose] starting...
+2021-08-11 22:48:35,191 INFO 31377 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:48:35,192 INFO 31377 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:48:35,193 INFO 31377 [egg-watcher:application] watcher start success
+2021-08-11 22:48:35,201 INFO 31377 [egg:core] dump config after ready, 6ms
+2021-08-11 22:51:19,559 INFO 32684 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:51:19,581 INFO 32684 [egg-multipart] stream mode enable
+2021-08-11 22:51:19,763 INFO 32684 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:51:19,834 INFO 32684 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:51:19,835 INFO 32684 [egg-security] use csrf middleware
+2021-08-11 22:51:19,836 INFO 32684 [egg-security] use methodnoallow middleware
+2021-08-11 22:51:19,836 INFO 32684 [egg-security] use noopen middleware
+2021-08-11 22:51:19,836 INFO 32684 [egg-security] use nosniff middleware
+2021-08-11 22:51:19,837 INFO 32684 [egg-security] use xssProtection middleware
+2021-08-11 22:51:19,837 INFO 32684 [egg-security] use xframe middleware
+2021-08-11 22:51:19,837 INFO 32684 [egg-security] use dta middleware
+2021-08-11 22:51:19,837 INFO 32684 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:51:21,400 INFO 32684 [egg:core] dump config after load, 3ms
+2021-08-11 22:51:21,403 INFO 32684 [egg-mongoose] starting...
+2021-08-11 22:51:21,415 INFO 32684 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:51:21,415 INFO 32684 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:51:21,416 INFO 32684 [egg-watcher:application] watcher start success
+2021-08-11 22:51:21,439 INFO 32684 [egg:core] dump config after ready, 21ms
+2021-08-11 22:59:38,741 INFO 36592 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:59:38,763 INFO 36592 [egg-multipart] stream mode enable
+2021-08-11 22:59:38,952 INFO 36592 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:59:39,023 INFO 36592 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:59:39,025 INFO 36592 [egg-security] use csrf middleware
+2021-08-11 22:59:39,025 INFO 36592 [egg-security] use methodnoallow middleware
+2021-08-11 22:59:39,026 INFO 36592 [egg-security] use noopen middleware
+2021-08-11 22:59:39,026 INFO 36592 [egg-security] use nosniff middleware
+2021-08-11 22:59:39,026 INFO 36592 [egg-security] use xssProtection middleware
+2021-08-11 22:59:39,027 INFO 36592 [egg-security] use xframe middleware
+2021-08-11 22:59:39,027 INFO 36592 [egg-security] use dta middleware
+2021-08-11 22:59:39,027 INFO 36592 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:59:39,036 INFO 36592 [egg:core] dump config after load, 4ms
+2021-08-11 22:59:39,039 INFO 36592 [egg-mongoose] starting...
+2021-08-11 22:59:40,660 INFO 36592 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:59:40,660 INFO 36592 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:59:40,661 INFO 36592 [egg-watcher:application] watcher start success
+2021-08-11 22:59:40,669 INFO 36592 [egg:core] dump config after ready, 5ms
+2021-08-11 22:59:42,813 INFO 36637 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 22:59:42,834 INFO 36637 [egg-multipart] stream mode enable
+2021-08-11 22:59:43,021 INFO 36637 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 22:59:43,086 INFO 36637 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 22:59:43,088 INFO 36637 [egg-security] use csrf middleware
+2021-08-11 22:59:43,088 INFO 36637 [egg-security] use methodnoallow middleware
+2021-08-11 22:59:43,088 INFO 36637 [egg-security] use noopen middleware
+2021-08-11 22:59:43,089 INFO 36637 [egg-security] use nosniff middleware
+2021-08-11 22:59:43,089 INFO 36637 [egg-security] use xssProtection middleware
+2021-08-11 22:59:43,089 INFO 36637 [egg-security] use xframe middleware
+2021-08-11 22:59:43,090 INFO 36637 [egg-security] use dta middleware
+2021-08-11 22:59:43,090 INFO 36637 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 22:59:43,099 INFO 36637 [egg:core] dump config after load, 5ms
+2021-08-11 22:59:43,101 INFO 36637 [egg-mongoose] starting...
+2021-08-11 22:59:43,113 INFO 36637 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 22:59:43,113 INFO 36637 [egg-mongoose] instance[0] start successfully
+2021-08-11 22:59:43,115 INFO 36637 [egg-watcher:application] watcher start success
+2021-08-11 22:59:43,121 INFO 36637 [egg:core] dump config after ready, 5ms
+2021-08-11 23:10:58,200 INFO 41884 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:10:58,222 INFO 41884 [egg-multipart] stream mode enable
+2021-08-11 23:10:58,406 INFO 41884 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:10:58,479 INFO 41884 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:10:58,481 INFO 41884 [egg-security] use csrf middleware
+2021-08-11 23:10:58,481 INFO 41884 [egg-security] use methodnoallow middleware
+2021-08-11 23:10:58,481 INFO 41884 [egg-security] use noopen middleware
+2021-08-11 23:10:58,482 INFO 41884 [egg-security] use nosniff middleware
+2021-08-11 23:10:58,482 INFO 41884 [egg-security] use xssProtection middleware
+2021-08-11 23:10:58,482 INFO 41884 [egg-security] use xframe middleware
+2021-08-11 23:10:58,483 INFO 41884 [egg-security] use dta middleware
+2021-08-11 23:10:58,483 INFO 41884 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:10:58,492 INFO 41884 [egg:core] dump config after load, 4ms
+2021-08-11 23:10:58,494 INFO 41884 [egg-mongoose] starting...
+2021-08-11 23:11:00,084 INFO 41884 [egg:core] dump config after ready, 6ms
+2021-08-11 23:11:00,089 INFO 41884 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:11:00,090 INFO 41884 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:11:00,092 INFO 41884 [egg-watcher:application] watcher start success
+2021-08-11 23:11:33,700 INFO 42177 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:11:33,721 INFO 42177 [egg-multipart] stream mode enable
+2021-08-11 23:11:33,901 INFO 42177 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:11:33,967 INFO 42177 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:11:33,969 INFO 42177 [egg-security] use csrf middleware
+2021-08-11 23:11:33,970 INFO 42177 [egg-security] use methodnoallow middleware
+2021-08-11 23:11:33,970 INFO 42177 [egg-security] use noopen middleware
+2021-08-11 23:11:33,971 INFO 42177 [egg-security] use nosniff middleware
+2021-08-11 23:11:33,971 INFO 42177 [egg-security] use xssProtection middleware
+2021-08-11 23:11:33,971 INFO 42177 [egg-security] use xframe middleware
+2021-08-11 23:11:33,971 INFO 42177 [egg-security] use dta middleware
+2021-08-11 23:11:33,972 INFO 42177 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:11:33,980 INFO 42177 [egg:core] dump config after load, 4ms
+2021-08-11 23:11:33,983 INFO 42177 [egg-mongoose] starting...
+2021-08-11 23:11:35,542 INFO 42177 [egg:core] dump config after ready, 6ms
+2021-08-11 23:11:35,547 INFO 42177 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:11:35,548 INFO 42177 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:11:35,549 INFO 42177 [egg-watcher:application] watcher start success
+2021-08-11 23:13:08,601 INFO 42920 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:13:08,624 INFO 42920 [egg-multipart] stream mode enable
+2021-08-11 23:13:08,827 INFO 42920 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:13:08,895 INFO 42920 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:13:08,896 INFO 42920 [egg-security] use csrf middleware
+2021-08-11 23:13:08,897 INFO 42920 [egg-security] use methodnoallow middleware
+2021-08-11 23:13:08,897 INFO 42920 [egg-security] use noopen middleware
+2021-08-11 23:13:08,897 INFO 42920 [egg-security] use nosniff middleware
+2021-08-11 23:13:08,898 INFO 42920 [egg-security] use xssProtection middleware
+2021-08-11 23:13:08,898 INFO 42920 [egg-security] use xframe middleware
+2021-08-11 23:13:08,898 INFO 42920 [egg-security] use dta middleware
+2021-08-11 23:13:08,898 INFO 42920 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:13:08,907 INFO 42920 [egg:core] dump config after load, 5ms
+2021-08-11 23:13:08,909 INFO 42920 [egg-mongoose] starting...
+2021-08-11 23:13:10,550 INFO 42920 [egg:core] dump config after ready, 6ms
+2021-08-11 23:13:10,556 INFO 42920 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:13:10,556 INFO 42920 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:13:10,558 INFO 42920 [egg-watcher:application] watcher start success
+2021-08-11 23:13:46,032 INFO 43227 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:13:46,056 INFO 43227 [egg-multipart] stream mode enable
+2021-08-11 23:13:46,249 INFO 43227 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:13:46,323 INFO 43227 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:13:46,324 INFO 43227 [egg-security] use csrf middleware
+2021-08-11 23:13:46,325 INFO 43227 [egg-security] use methodnoallow middleware
+2021-08-11 23:13:46,326 INFO 43227 [egg-security] use noopen middleware
+2021-08-11 23:13:46,327 INFO 43227 [egg-security] use nosniff middleware
+2021-08-11 23:13:46,327 INFO 43227 [egg-security] use xssProtection middleware
+2021-08-11 23:13:46,327 INFO 43227 [egg-security] use xframe middleware
+2021-08-11 23:13:46,328 INFO 43227 [egg-security] use dta middleware
+2021-08-11 23:13:46,328 INFO 43227 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:13:46,338 INFO 43227 [egg:core] dump config after load, 4ms
+2021-08-11 23:13:46,341 INFO 43227 [egg-mongoose] starting...
+2021-08-11 23:13:47,948 INFO 43227 [egg:core] dump config after ready, 5ms
+2021-08-11 23:13:47,954 INFO 43227 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:13:47,954 INFO 43227 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:13:47,956 INFO 43227 [egg-watcher:application] watcher start success
+2021-08-11 23:13:52,970 INFO 43295 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:13:52,992 INFO 43295 [egg-multipart] stream mode enable
+2021-08-11 23:13:53,192 INFO 43295 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:13:53,258 INFO 43295 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:13:53,260 INFO 43295 [egg-security] use csrf middleware
+2021-08-11 23:13:53,261 INFO 43295 [egg-security] use methodnoallow middleware
+2021-08-11 23:13:53,261 INFO 43295 [egg-security] use noopen middleware
+2021-08-11 23:13:53,261 INFO 43295 [egg-security] use nosniff middleware
+2021-08-11 23:13:53,262 INFO 43295 [egg-security] use xssProtection middleware
+2021-08-11 23:13:53,262 INFO 43295 [egg-security] use xframe middleware
+2021-08-11 23:13:53,262 INFO 43295 [egg-security] use dta middleware
+2021-08-11 23:13:53,262 INFO 43295 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:13:53,271 INFO 43295 [egg:core] dump config after load, 5ms
+2021-08-11 23:13:53,274 INFO 43295 [egg-mongoose] starting...
+2021-08-11 23:13:54,899 INFO 43295 [egg:core] dump config after ready, 6ms
+2021-08-11 23:13:54,904 INFO 43295 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:13:54,905 INFO 43295 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:13:54,906 INFO 43295 [egg-watcher:application] watcher start success
+2021-08-11 23:14:13,372 INFO 43460 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:14:13,395 INFO 43460 [egg-multipart] stream mode enable
+2021-08-11 23:14:13,592 INFO 43460 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:14:13,655 INFO 43460 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:14:13,657 INFO 43460 [egg-security] use csrf middleware
+2021-08-11 23:14:13,657 INFO 43460 [egg-security] use methodnoallow middleware
+2021-08-11 23:14:13,658 INFO 43460 [egg-security] use noopen middleware
+2021-08-11 23:14:13,658 INFO 43460 [egg-security] use nosniff middleware
+2021-08-11 23:14:13,658 INFO 43460 [egg-security] use xssProtection middleware
+2021-08-11 23:14:13,659 INFO 43460 [egg-security] use xframe middleware
+2021-08-11 23:14:13,659 INFO 43460 [egg-security] use dta middleware
+2021-08-11 23:14:13,659 INFO 43460 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:14:13,667 INFO 43460 [egg:core] dump config after load, 4ms
+2021-08-11 23:14:13,670 INFO 43460 [egg-mongoose] starting...
+2021-08-11 23:14:15,281 INFO 43460 [egg:core] dump config after ready, 5ms
+2021-08-11 23:14:15,287 INFO 43460 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:14:15,287 INFO 43460 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:14:15,289 INFO 43460 [egg-watcher:application] watcher start success
+2021-08-11 23:14:40,507 INFO 43679 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:14:40,529 INFO 43679 [egg-multipart] stream mode enable
+2021-08-11 23:14:40,729 INFO 43679 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:14:40,799 INFO 43679 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:14:40,801 INFO 43679 [egg-security] use csrf middleware
+2021-08-11 23:14:40,802 INFO 43679 [egg-security] use methodnoallow middleware
+2021-08-11 23:14:40,802 INFO 43679 [egg-security] use noopen middleware
+2021-08-11 23:14:40,802 INFO 43679 [egg-security] use nosniff middleware
+2021-08-11 23:14:40,803 INFO 43679 [egg-security] use xssProtection middleware
+2021-08-11 23:14:40,803 INFO 43679 [egg-security] use xframe middleware
+2021-08-11 23:14:40,803 INFO 43679 [egg-security] use dta middleware
+2021-08-11 23:14:40,803 INFO 43679 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:14:40,812 INFO 43679 [egg:core] dump config after load, 4ms
+2021-08-11 23:14:40,815 INFO 43679 [egg-mongoose] starting...
+2021-08-11 23:14:42,462 INFO 43679 [egg:core] dump config after ready, 5ms
+2021-08-11 23:14:42,468 INFO 43679 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:14:42,468 INFO 43679 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:14:42,470 INFO 43679 [egg-watcher:application] watcher start success
+2021-08-11 23:15:09,674 INFO 43925 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:15:09,695 INFO 43925 [egg-multipart] stream mode enable
+2021-08-11 23:15:09,882 INFO 43925 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:15:09,945 INFO 43925 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:15:09,946 INFO 43925 [egg-security] use csrf middleware
+2021-08-11 23:15:09,947 INFO 43925 [egg-security] use methodnoallow middleware
+2021-08-11 23:15:09,947 INFO 43925 [egg-security] use noopen middleware
+2021-08-11 23:15:09,948 INFO 43925 [egg-security] use nosniff middleware
+2021-08-11 23:15:09,948 INFO 43925 [egg-security] use xssProtection middleware
+2021-08-11 23:15:09,948 INFO 43925 [egg-security] use xframe middleware
+2021-08-11 23:15:09,948 INFO 43925 [egg-security] use dta middleware
+2021-08-11 23:15:09,948 INFO 43925 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:15:09,958 INFO 43925 [egg:core] dump config after load, 5ms
+2021-08-11 23:15:09,961 INFO 43925 [egg-mongoose] starting...
+2021-08-11 23:15:11,532 INFO 43925 [egg:core] dump config after ready, 5ms
+2021-08-11 23:15:11,537 INFO 43925 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:15:11,537 INFO 43925 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:15:11,539 INFO 43925 [egg-watcher:application] watcher start success
+2021-08-11 23:15:35,859 INFO 44138 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:15:35,882 INFO 44138 [egg-multipart] stream mode enable
+2021-08-11 23:15:36,080 INFO 44138 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:15:36,148 INFO 44138 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:15:36,149 INFO 44138 [egg-security] use csrf middleware
+2021-08-11 23:15:36,150 INFO 44138 [egg-security] use methodnoallow middleware
+2021-08-11 23:15:36,151 INFO 44138 [egg-security] use noopen middleware
+2021-08-11 23:15:36,151 INFO 44138 [egg-security] use nosniff middleware
+2021-08-11 23:15:36,152 INFO 44138 [egg-security] use xssProtection middleware
+2021-08-11 23:15:36,152 INFO 44138 [egg-security] use xframe middleware
+2021-08-11 23:15:36,152 INFO 44138 [egg-security] use dta middleware
+2021-08-11 23:15:36,152 INFO 44138 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:15:36,161 INFO 44138 [egg:core] dump config after load, 4ms
+2021-08-11 23:15:36,164 INFO 44138 [egg-mongoose] starting...
+2021-08-11 23:15:37,787 INFO 44138 [egg:core] dump config after ready, 5ms
+2021-08-11 23:15:37,793 INFO 44138 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:15:37,793 INFO 44138 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:15:37,795 INFO 44138 [egg-watcher:application] watcher start success
+2021-08-11 23:19:37,763 INFO 46050 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:19:37,786 INFO 46050 [egg-multipart] stream mode enable
+2021-08-11 23:19:37,979 INFO 46050 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:19:38,050 INFO 46050 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:19:38,051 INFO 46050 [egg-security] use csrf middleware
+2021-08-11 23:19:38,052 INFO 46050 [egg-security] use methodnoallow middleware
+2021-08-11 23:19:38,052 INFO 46050 [egg-security] use noopen middleware
+2021-08-11 23:19:38,053 INFO 46050 [egg-security] use nosniff middleware
+2021-08-11 23:19:38,053 INFO 46050 [egg-security] use xssProtection middleware
+2021-08-11 23:19:38,053 INFO 46050 [egg-security] use xframe middleware
+2021-08-11 23:19:38,053 INFO 46050 [egg-security] use dta middleware
+2021-08-11 23:19:38,054 INFO 46050 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:19:38,062 INFO 46050 [egg:core] dump config after load, 4ms
+2021-08-11 23:19:38,065 INFO 46050 [egg-mongoose] starting...
+2021-08-11 23:19:39,714 INFO 46050 [egg:core] dump config after ready, 5ms
+2021-08-11 23:19:39,720 INFO 46050 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:19:39,720 INFO 46050 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:19:39,722 INFO 46050 [egg-watcher:application] watcher start success
+2021-08-11 23:19:49,281 INFO 46152 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:19:49,301 INFO 46152 [egg-multipart] stream mode enable
+2021-08-11 23:19:49,504 INFO 46152 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:19:49,576 INFO 46152 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:19:49,577 INFO 46152 [egg-security] use csrf middleware
+2021-08-11 23:19:49,578 INFO 46152 [egg-security] use methodnoallow middleware
+2021-08-11 23:19:49,578 INFO 46152 [egg-security] use noopen middleware
+2021-08-11 23:19:49,579 INFO 46152 [egg-security] use nosniff middleware
+2021-08-11 23:19:49,579 INFO 46152 [egg-security] use xssProtection middleware
+2021-08-11 23:19:49,580 INFO 46152 [egg-security] use xframe middleware
+2021-08-11 23:19:49,580 INFO 46152 [egg-security] use dta middleware
+2021-08-11 23:19:49,580 INFO 46152 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:19:49,589 INFO 46152 [egg:core] dump config after load, 4ms
+2021-08-11 23:19:49,592 INFO 46152 [egg-mongoose] starting...
+2021-08-11 23:19:51,223 INFO 46152 [egg:core] dump config after ready, 5ms
+2021-08-11 23:19:51,229 INFO 46152 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:19:51,229 INFO 46152 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:19:51,231 INFO 46152 [egg-watcher:application] watcher start success
+2021-08-11 23:22:57,987 INFO 47660 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:22:58,018 INFO 47660 [egg-multipart] stream mode enable
+2021-08-11 23:22:58,201 INFO 47660 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:22:58,275 INFO 47660 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:22:58,276 INFO 47660 [egg-security] use csrf middleware
+2021-08-11 23:22:58,277 INFO 47660 [egg-security] use methodnoallow middleware
+2021-08-11 23:22:58,277 INFO 47660 [egg-security] use noopen middleware
+2021-08-11 23:22:58,278 INFO 47660 [egg-security] use nosniff middleware
+2021-08-11 23:22:58,278 INFO 47660 [egg-security] use xssProtection middleware
+2021-08-11 23:22:58,278 INFO 47660 [egg-security] use xframe middleware
+2021-08-11 23:22:58,279 INFO 47660 [egg-security] use dta middleware
+2021-08-11 23:22:58,279 INFO 47660 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:22:58,288 INFO 47660 [egg:core] dump config after load, 5ms
+2021-08-11 23:22:58,291 INFO 47660 [egg-mongoose] starting...
+2021-08-11 23:23:00,030 INFO 47660 [egg:core] dump config after ready, 5ms
+2021-08-11 23:23:00,035 INFO 47660 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:23:00,036 INFO 47660 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:23:00,037 INFO 47660 [egg-watcher:application] watcher start success
+2021-08-11 23:23:03,472 INFO 47715 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-11 23:23:03,495 INFO 47715 [egg-multipart] stream mode enable
+2021-08-11 23:23:03,687 INFO 47715 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-11 23:23:03,752 INFO 47715 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-11 23:23:03,753 INFO 47715 [egg-security] use csrf middleware
+2021-08-11 23:23:03,754 INFO 47715 [egg-security] use methodnoallow middleware
+2021-08-11 23:23:03,754 INFO 47715 [egg-security] use noopen middleware
+2021-08-11 23:23:03,754 INFO 47715 [egg-security] use nosniff middleware
+2021-08-11 23:23:03,755 INFO 47715 [egg-security] use xssProtection middleware
+2021-08-11 23:23:03,755 INFO 47715 [egg-security] use xframe middleware
+2021-08-11 23:23:03,755 INFO 47715 [egg-security] use dta middleware
+2021-08-11 23:23:03,755 INFO 47715 [egg-security] compose 7 middlewares into one security middleware
+2021-08-11 23:23:03,763 INFO 47715 [egg:core] dump config after load, 4ms
+2021-08-11 23:23:03,766 INFO 47715 [egg-mongoose] starting...
+2021-08-11 23:23:05,459 INFO 47715 [egg:core] dump config after ready, 5ms
+2021-08-11 23:23:05,465 INFO 47715 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-11 23:23:05,465 INFO 47715 [egg-mongoose] instance[0] start successfully
+2021-08-11 23:23:05,467 INFO 47715 [egg-watcher:application] watcher start success
+2021-08-12 21:29:08,779 INFO 54385 [egg:logger] init all loggers with options: {"dir":"/Users/macbook/Desktop/vyking/projects/egg-vue-pro/logs","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"EggVuePro-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-08-12 21:29:08,806 INFO 54385 [egg-multipart] stream mode enable
+2021-08-12 21:29:09,224 INFO 54385 [egg-mongoose] connecting mongodb://127.0.0.1/prodb
+2021-08-12 21:29:09,349 INFO 54385 [egg-static] starting static serve /public/ -> /Users/macbook/Desktop/vyking/projects/egg-vue-pro/public
+2021-08-12 21:29:09,352 INFO 54385 [egg-security] use csrf middleware
+2021-08-12 21:29:09,353 INFO 54385 [egg-security] use methodnoallow middleware
+2021-08-12 21:29:09,354 INFO 54385 [egg-security] use noopen middleware
+2021-08-12 21:29:09,355 INFO 54385 [egg-security] use nosniff middleware
+2021-08-12 21:29:09,356 INFO 54385 [egg-security] use xssProtection middleware
+2021-08-12 21:29:09,357 INFO 54385 [egg-security] use xframe middleware
+2021-08-12 21:29:09,358 INFO 54385 [egg-security] use dta middleware
+2021-08-12 21:29:09,358 INFO 54385 [egg-security] compose 7 middlewares into one security middleware
+2021-08-12 21:29:09,372 INFO 54385 [egg:core] dump config after load, 5ms
+2021-08-12 21:29:09,376 INFO 54385 [egg-mongoose] starting...
+2021-08-12 21:29:11,330 INFO 54385 [egg:core] dump config after ready, 5ms
+2021-08-12 21:29:11,335 INFO 54385 [egg-mongoose] mongodb://127.0.0.1/prodb connected successfully
+2021-08-12 21:29:11,335 INFO 54385 [egg-mongoose] instance[0] start successfully
+2021-08-12 21:29:11,337 INFO 54385 [egg-watcher:application] watcher start success

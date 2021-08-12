@@ -1,0 +1,518 @@
+2021-08-10 23:44:03,062 INFO 59659 [-/127.0.0.1/-/40ms GET /] [access] 127.0.0.1: - GET / HTTP/200 2553 - 32 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+2021-08-10 23:44:06,823 INFO 59659 [-/127.0.0.1/-/212ms GET /admin/] [access] 127.0.0.1: - GET /admin/ HTTP/200 248702 http://127.0.0.1:7001/ 212 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+2021-08-10 23:49:41,803 INFO 59659 [-/127.0.0.1/-/17ms POST /admin/api/article/list] [access] 127.0.0.1: - POST /admin/api/article/list HTTP/200 5679 http://127.0.0.1:7001/admin/article/list 16 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+2021-08-11 22:14:32,716 INFO 15042 [-/127.0.0.1/-/40ms GET /public/ffa5e180cdbf9102f7b8.hot-update.json] [access] 127.0.0.1: - GET /public/ffa5e180cdbf9102f7b8.hot-update.json HTTP/404 - http://127.0.0.1:7001/admin/article/list 0 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+2021-08-11 22:42:39,551 INFO 27836 [-/127.0.0.1/-/9ms GET /top] [access] 127.0.0.1: - GET /top HTTP/404 - - 4 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+2021-08-11 22:44:52,866 INFO 29516 [-/127.0.0.1/-/11ms GET /top] [access] 127.0.0.1: - GET /top HTTP/200 6 - 6 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36
+2021-08-11 23:11:00,077 ERROR 41884 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(6,12): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+app/model/top.ts(6,12): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(6,12): error TS2339: Property 'mongoose' does not exist on type 'Application'.\n"
+diagnosticCodes: [2339]
+pid: 41884
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:11:35,535 ERROR 42177 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.\n"
+diagnosticCodes: [2304,2304]
+pid: 42177
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:13:10,543 ERROR 42920 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.\n"
+diagnosticCodes: [2304,2304]
+pid: 42920
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:13:47,942 ERROR 43227 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(24,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(24,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(34,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.
+
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(24,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(24,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(34,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(24,17): error TS2304: Cannot find name 'IUser'.\napp/model/top.ts(24,29): error TS2304: Cannot find name 'UserModel'.\napp/model/top.ts(34,17): error TS2304: Cannot find name 'IUser'.\napp/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2304,2304]
+pid: 43227
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:13:54,892 ERROR 43295 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(24,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(24,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(34,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.
+
+app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(24,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(24,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(34,17): error TS2304: Cannot find name 'IUser'.
+app/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(8,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(8,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(24,17): error TS2304: Cannot find name 'IUser'.\napp/model/top.ts(24,29): error TS2304: Cannot find name 'UserModel'.\napp/model/top.ts(34,17): error TS2304: Cannot find name 'IUser'.\napp/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2304,2304]
+pid: 43295
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:14:15,274 ERROR 43460 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(18,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(18,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(44,29): error TS2304: Cannot find name 'UserModel'.
+
+app/model/top.ts(18,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(18,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(44,29): error TS2304: Cannot find name 'UserModel'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(18,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(18,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(34,29): error TS2304: Cannot find name 'UserModel'.\napp/model/top.ts(44,29): error TS2304: Cannot find name 'UserModel'.\n"
+diagnosticCodes: [2304,2304,2304,2304]
+pid: 43460
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:14:42,455 ERROR 43679 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(24,39): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(52,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(62,29): error TS2304: Cannot find name 'UserModel'.
+
+app/model/top.ts(24,39): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(52,29): error TS2304: Cannot find name 'UserModel'.
+app/model/top.ts(62,29): error TS2304: Cannot find name 'UserModel'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(24,39): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(52,29): error TS2304: Cannot find name 'UserModel'.\napp/model/top.ts(62,29): error TS2304: Cannot find name 'UserModel'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2304]
+pid: 43679
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:15:11,526 ERROR 43925 [-/127.0.0.1/-/1ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(24,39): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+
+app/model/top.ts(24,39): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(24,39): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(69,26): error TS2304: Cannot find name 'model'.\n"
+diagnosticCodes: [2304,2304,2304,2304]
+pid: 43925
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:15:37,780 ERROR 44138 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(74,26): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(74,26): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(69,26): error TS2304: Cannot find name 'model'.\napp/model/top.ts(74,26): error TS2339: Property 'mongoose' does not exist on type 'Application'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2339]
+pid: 44138
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:19:39,707 ERROR 46050 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(74,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(74,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(69,26): error TS2304: Cannot find name 'model'.\napp/model/top.ts(74,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2339]
+pid: 46050
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:19:51,216 ERROR 46152 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(76,5): error TS2347: Untyped function calls may not accept type arguments.
+
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(76,5): error TS2347: Untyped function calls may not accept type arguments.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(69,26): error TS2304: Cannot find name 'model'.\napp/model/top.ts(76,5): error TS2347: Untyped function calls may not accept type arguments.\n"
+diagnosticCodes: [2304,2304,2304,2304,2347]
+pid: 46152
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:23:00,024 ERROR 47660 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(72,22): error TS2304: Cannot find name 'Application'.
+
+app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(69,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(72,22): error TS2304: Cannot find name 'Application'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(24,37): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(36,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(36,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(69,26): error TS2304: Cannot find name 'model'.\napp/model/top.ts(72,22): error TS2304: Cannot find name 'Application'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2304]
+pid: 47660
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-11 23:23:05,452 ERROR 47715 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(25,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(37,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(37,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(70,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(75,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+app/model/top.ts(25,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(37,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(37,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(70,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(75,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(25,37): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(37,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(37,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(70,26): error TS2304: Cannot find name 'model'.\napp/model/top.ts(75,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2339]
+pid: 47715
+hostname: MacBookdeMacBook-Air.local
+
+2021-08-12 21:29:11,322 ERROR 54385 [-/127.0.0.1/-/0ms GET /] nodejs.TSError: [egg-core] load file: /Users/macbook/Desktop/vyking/projects/egg-vue-pro/app/model/top.ts, error: ⨯ Unable to compile TypeScript:
+app/model/top.ts(25,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(37,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(37,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(70,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(75,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+app/model/top.ts(25,37): error TS2304: Cannot find name 'Model'.
+app/model/top.ts(37,19): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(37,32): error TS2304: Cannot find name 'Schema'.
+app/model/top.ts(70,26): error TS2304: Cannot find name 'model'.
+app/model/top.ts(75,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.
+
+    at createTSError (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:261:12)
+    at getOutput (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:367:40)
+    at Object.compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:558:11)
+    at Module.m._compile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:439:43)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Object.require.extensions.<computed> [as .ts] (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_ts-node@7.0.1@ts-node/src/index.ts:442:12)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.loadFile (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:27:19)
+    at getExports (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:199:23)
+    at FileLoader.parse (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:158:25)
+    at FileLoader.load (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/file_loader.js:67:24)
+    at AppWorkerLoader.loadToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/loader/egg_loader.js:388:25)
+    at loadModelToApp (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:124:14)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-mongoose@3.3.1@egg-mongoose/lib/mongoose.js:53:7
+    at Object.callFn (/Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:42)
+    at /Users/macbook/Desktop/vyking/projects/egg-vue-pro/node_modules/_egg-core@4.20.0@egg-core/lib/lifecycle.js:256:13
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+diagnosticText: "app/model/top.ts(25,37): error TS2304: Cannot find name 'Model'.\napp/model/top.ts(37,19): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(37,32): error TS2304: Cannot find name 'Schema'.\napp/model/top.ts(70,26): error TS2304: Cannot find name 'model'.\napp/model/top.ts(75,13): error TS2339: Property 'mongoose' does not exist on type 'Application'.\n"
+diagnosticCodes: [2304,2304,2304,2304,2339]
+pid: 54385
+hostname: MacBookdeMacBook-Air.local
+
